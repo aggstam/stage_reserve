@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #222326;
+}
+
+a {
+    color: #0A0B0D;
+}
+
+a:hover {
+    color: #515659;
+}
+
+p, label, h1 {
+    color: #f8f9fa;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.form-button {
+    background-color: #9FA5A6;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.form-button:hover {
+    opacity: 0.8;
+}
+
+.cancel-button {
+    background-color: #0A0B0D;
+}
+
+.cancel-button, .signup-button {
+    float: left;
+    width: 50%;
+}
+
+.img-container {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.info-container {
+    padding: 16px;
+}
+
+.sign-up-container {
+    height: 80%;
+    overflow: auto;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 80%;
+    overflow: auto;
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: #515659;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.sign-up-modal {
+    height: 100%;
+}
+
+.error-message {
+    color: #848B8C;
+}
+
+.login-img {
+    width: 100%;
+    max-width: 462px;
+    height: 400px;
+}
+
+.google-icon {
+    content: url('../images/google-icon.svg');
+    height: 20px;
+    width: 20px;
+}
+
+.container {
+    margin-top: 65px
+}
+
+.bg-dark {
+    background-color: #515659 !important;
+}
