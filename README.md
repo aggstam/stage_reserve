@@ -7,7 +7,7 @@ Invited people receive an email containing a code for their checkin.
 <br>
 Application uses MySQL Database, which can be created using the provided dump.
 
-## Sample screenshots:
+## Sample screenshots
 ![image](https://user-images.githubusercontent.com/40597439/140167692-fe31f429-d70c-48d6-9a7a-82c47518cd24.png)
 <br><br>
 ![image](https://user-images.githubusercontent.com/40597439/140167707-9f0664ba-9fbd-41da-bcc6-1fca1e6fcc82.png)
